@@ -13,6 +13,12 @@
     position: relative; 
 }
 
+.soup {
+    position: absolute;
+    top: 70% ;
+    left: 40%;
+}
+
 .text-overlay {
     position: absolute; 
     top: 50%; 
