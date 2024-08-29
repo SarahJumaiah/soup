@@ -1,0 +1,72 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.hero-image {
+    background-image: url('https://early-wildflower-281.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ffb56a855-0c74-4a0d-84dc-3fb7c76ae0b3%2F0ba5b70c-e4de-4e4b-87f9-3f873e0e9849%2FsoupHedar.jpg?table=block&id=58e976de-39d1-4fa9-968b-81680cf6e458&spaceId=fb56a855-0c74-4a0d-84dc-3fb7c76ae0b3&width=2000&userId=&cache=v2'); 
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    width: 100%; 
+    position: relative; 
+}
+
+.text-overlay {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center; 
+    padding: 20px; 
+}
+
+h1 {
+    font-size: 3rem; 
+}
+
+.p-about{
+    margin-top: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: x-large;
+}
+
+.about-icons{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.line {
+    height: 2px;
+    background-color: grey;
+    width: 80%;
+    margin-top: 100px ;
+    margin-left: 100px;
+    margin-right: 100px ;
+}
+
+.Ingradients {
+    margin-top: 100px ;
+    margin-left: 250px;
+    margin-right: 100px ;
+    margin-bottom: 100px ;
+
+ }
+
+ .Ingradients-h{
+
+    background: rgba(201, 126, 39, 0.5); 
+    border-radius: 50px; 
+    width: 300px;
+ }
+
+.Ingradients-p{
+    font-size: large;
+}
+ .Ingradients-icons {
+    margin-top: 100px;
+    margin-left: 500px;
+ }
